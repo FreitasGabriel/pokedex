@@ -3,14 +3,74 @@ body {
     padding: 0;
     width: 100vh;
     box-sizing: border-box;
-  
-    font-family: 'Outfit', sans-serif;
+    
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+
 
     background-repeat: no-repeat;
 
     width: 100vw;
     height: 100vh;
     background: linear-gradient(180deg, #F5DB13, #F2B807);
+}
+
+main{
+  padding: 0 15%;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-text{
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-text__title{
+  font-size: 4.5rem;
+  font-weight: 300;
+}
+
+.main-text__description{
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: normal;
+
+  width: 80%;
+}
+
+.main-text__btn{
+  width: 231px;
+  height: 66px;
+
+  background-color: #73D677;
+  color: #212121;
+
+  border-radius: 8px;
+  border: none;
+
+  box-shadow: 0px 10px 1px #5EAF62;
+}
+
+.main-text__btn:hover{
+  cursor:pointer;
+}
+
+.main-image{
+  display: flex;
+}
+
+.main-image img {
+  position: fixed;
+  right: 0;
+  top: 20%;
 }
 
 
