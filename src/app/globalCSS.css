@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    box-sizing: border-box;
+  
+    font-family: 'Outfit', sans-serif;
+
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #F5DB13, #F2B807);
+}
+
+
+  :root{
+    
+    --color-primary: #F2B807;
+    --color-secondary: #F28F16;
+    --color-third: #F5DB13;
+    --color-danger: #D93E30;
+    --color-gray: #F6F7F9;
+    --color-paragraph: #212121;
+    --color-white-light: #FDFDFD;
+
+
+}
