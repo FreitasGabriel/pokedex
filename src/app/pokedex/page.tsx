@@ -1,13 +1,10 @@
-export default async function CreateMovie() {
-  const result = await fetch("https://pokeapi.co/api/v2/pokemon/sylveon").then(
-    (response) => response.json()
-  );
+"use client";
+import { Wrapper } from "./style";
 
-  console.log(result.sprites);
-
+export default function Pokedex() {
   return (
-    <>
-      <h1>Esta é uma pagina de criação de filmes</h1>
-    </>
+    <Wrapper>
+      <p>POKEDEX</p>
+    </Wrapper>
   );
 }
